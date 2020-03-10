@@ -9,7 +9,8 @@ def Fizzbuzz(number):
         return number
 
 
-print(Fizzbuzz(6))
-print(Fizzbuzz(15))
-print(Fizzbuzz(10))
-print(Fizzbuzz(7))
+if __name__ == "__main__":
+    print(Fizzbuzz(6))  # Fizz
+    print(Fizzbuzz(15))  # FizzBuzz
+    print(Fizzbuzz(10))  # Buzz
+    print(Fizzbuzz(7))  # Number
